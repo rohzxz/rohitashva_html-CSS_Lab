@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>demo</title>
+    <!-- Include the stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <p>welcome home</p>
+    </header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li class="dropdown">
+          <a href="#">Link 2</a>
+          <div class="dropdown-content">
+            <a href="#">DD_Link_1</a>
+            <a href="#">DD_Link_2</a>
+            <a href="#">DD_Link_3</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#">Link 3</a>
+          <div class="dropdown-content">
+            <a href="#">DD_Link_1</a>
+            <a href="#">DD_Link_2</a>
+            <a href="#">DD_Link_3</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <section class="section1">
+      <div class="container">
+        <div class="bar" id="bar1"></div>
+        <h1 id="percentage1">Bar Plot</h1>
+      </div>
+
+      <div class="container">
+        <div class="bar" id="bar2"></div>
+        <h1 id="percentage2">Bar Plot</h1>
+      </div>
+
+      <div class="container">
+        <div class="bar" id="bar3"></div>
+        <h1 id="percentage3">Bar Plot</h1>
+      </div>
+    </section>
+    <h1 class="barplot">Bar Plot</h1>
+    <div class="container2">
+      <form id="gmail-form">
+        <h2>Create your Gmail account</h2>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="form-group">
+          <label for="confirm-password">Confirm Password:</label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset" />
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

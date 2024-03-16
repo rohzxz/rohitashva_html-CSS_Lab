@@ -1,0 +1,171 @@
+body {
+  font-family: Arial, sans-serif; /* Set a default font for the entire page */
+  margin: 0; /* Remove default browser margins */
+  padding: 0; /* Remove default browser padding */
+}
+
+header {
+  font-size: 1em; /* Increase heading size */
+  background-color: brown;
+  color: azure;
+  text-align: end;
+  padding: 0.3em;
+}
+p {
+  margin-right: 5rem;
+  font-size: 1.2rem;
+}
+/* nav {
+  display: flex;
+  background-color: cadetblue;
+  padding: 0.8rem;
+}
+a {
+  margin: 0 1rem;
+  color: black;
+} */
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #a63838;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 80%;
+  margin-top: 10%;
+  background: #817b7b;
+}
+
+.bar {
+  width: 50px;
+  background-color: maroon;
+}
+
+h1 {
+  text-align: center;
+}
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
+}
+.barplot {
+  padding: 3rem;
+  text-align: center;
+  margin: 100px;
+}
+
+/* body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+} */
+
+.container2 {
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg"); /* Replace 'background.jpg' with your image path */
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+#gmail-form {
+  background-color: rgba(250, 241, 241, 0.5);
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  background-color: rgba(30, 144, 255, 0.35);
+}
+
+input[type="submit"],
+input[type="reset"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #45a049;
+}
